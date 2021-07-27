@@ -1,0 +1,46 @@
+@media only screen and (min-width: 1200px) {
+    .texto_mes-1 {
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 20% 40% 40%;
+        grid-template-rows: auto;
+        grid-template-areas: "mes fecha01 fecha02";
+        justify-items: center;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    .texto_mes-2 {
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 20% 40% 40%;
+        grid-template-rows: auto;
+        grid-template-areas: "mes fecha03 fecha04";
+        justify-items: center;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    .texto_mes-3 {
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 20% 40% 40%;
+        grid-template-rows: auto;
+        grid-template-areas: "mes fecha05 fecha06";
+        justify-items: center;
+        align-items: center;
+        column-gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .portada_section {
+        padding: 1rem;
+        margin: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #d3d3d3;
+    }
+}
+
