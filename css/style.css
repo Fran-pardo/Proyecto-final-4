@@ -78,7 +78,9 @@ hr {
   column-gap: 0vw;
   row-gap: 2vw;
   justify-content: center;
-  grid-template-areas: "mes01" "mes02" "mes03"; }
+  grid-template-areas: "mes01"
+ "mes02"
+ "mes03"; }
 
 .container_hijo-fechas {
   grid-area: "mes01"; }
@@ -127,7 +129,7 @@ a {
   margin: 2rem;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   background-color: #b3b3b3; }
