@@ -68,7 +68,7 @@ hr {
   margin: 1rem; }
 
 .portada {
-  width: 60vw;
+  width: 70vw;
   margin: 0 auto; }
 
 .container_padre-fechas {
@@ -129,13 +129,13 @@ a {
   margin: 2rem;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: flex-start;
   background-color: #b3b3b3; }
 
 .portada_background-discografia {
-  background-color: #353535; }
+  background-color: #b3b3b3; }
 
 h1 {
   font-size: 2rem;
@@ -163,7 +163,7 @@ h2 {
 .imagen_index {
   width: 100%;
   padding: 1rem;
-  background-color: #353535;
+  background-color: #b3b3b3;
   margin: 1rem auto; }
 
 .div__discografia {
@@ -251,13 +251,36 @@ h2 {
 .footer_icons {
   margin: 1rem; }
 
+@media only screen and (max-width: 1540px) {
+  .portada_section {
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #d3d3d3; } }
+
+@media only screen and (max-width: 480px) {
+  .imagen_integrantes {
+    width: 80vw; } }
+
 @media only screen and (max-width: 600px) {
   .portada {
     width: 80vw; }
+  .portada_section {
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #d3d3d3; }
   .navbar {
     bottom: 0;
     width: 100vw;
-    height: 5rem; }
+    height: 5rem;
+    position: fixed; }
   .logo {
     display: none; }
   .navbar-nav {
